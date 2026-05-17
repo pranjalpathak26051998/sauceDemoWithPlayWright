@@ -11,9 +11,9 @@ jobs:
 
     env:
       # Set environment variables for the tests
-      demoUrl:${{ secrets.DEMO_URL }}
-      demoUser:${{ secrets.DEMO_USER }}
-      demoPassword:${{ secrets.DEMO_PASSWORD }}
+      demoUrl: ${{ secrets.DEMO_URL }}
+      demoUser: ${{ secrets.DEMO_USER }}
+      demoPassword: ${{ secrets.DEMO_PASSWORD }}
 
 
     steps:
