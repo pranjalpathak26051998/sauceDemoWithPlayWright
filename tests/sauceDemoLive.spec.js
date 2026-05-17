@@ -55,5 +55,6 @@ test.describe('', () => {
             await inventoryPage.addToCart('Sauce Labs Backpack');
             await inventoryPage.addToCart('Sauce Labs Bike Light');
             await inventoryPage.openCartPage();
+            console.log('Cart page opened successfully');
         });
 });
