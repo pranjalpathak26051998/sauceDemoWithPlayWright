@@ -9,6 +9,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    env:
+      # Set environment variables for the tests
+      demoUrl:${{ secrets.DEMO_URL }}
+      demoUser:${{ secrets.DEMO_USER }}
+      demoPassword:${{ secrets.DEMO_PASSWORD }}
+
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
